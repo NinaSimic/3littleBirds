@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>3littleBirds</title>
+
+</head>
+
+<body>
+    <div class="cntr-bg">
+
+     <div class="">
+
+
+        <p class="intro-text">Hi there, first we need to set up your profile</p>
+        <p class="intro-text-sub">Please make sure the information that you provide is true. In order to receive the funds all information must be valid.
+        <p class="intro-text-sub" id="intro-sub">All information provided will be validated.</p>
+
+        <form class="receiver-setup-information">
+	         <input class="input-dft-rec" type="text" name="Name" value="Full Name"><br>
+           <p class="under-text">Only first name will be shown in the search</p>
+           <div class="date-picker">
+             <label for="dateofbirth" class="label-dob">Date Of Birth</label>
+             <input type="date" name="dateofbirth" id="dateofbirth">
+           </div>
+	      </form>
+
+        <form class="gender-radio">
+          <label>
+            <input type="radio" name="optradio" class="radio-inline-f">Male
+          </label>
+          <label >
+            <input type="radio" name="optradio" class="radio-inline-f">Female
+          </label>
+        </form>
+
+        <p class="label-residence">Residence location</p>
+          <select class="res-loc">
+            <option value="saab">Haiti</option>
+            <option value="opel">Dominican Republic</option>
+          </select>
+        <p class="res-loc-sub">Please enter location where you have suffered damage to your home</p>
+
+          <form class="receiver-setup-information">
+  	         <input class="input-dft-rec" type="text" name="Name" value="Passport number"><br>
+             <p class="under-text">e.g.123456789</p>
+          </form>
+
+          <div class="date-picker">
+            <label for="dateofbirth" class="label-dob">Valid until</label>
+            <input type="date" name="dateofbirth" id="dateofbirth">
+          </div>
+
+          <form class="receiver-setup-information">
+             <input class="input-dft-rec" type="text" name="Name" value="National ID number"><br>
+             <p class="under-text">e.g.123456789</p>
+          </form>
+
+          <div class="date-picker">
+            <label for="dateofbirth" class="label-dob">Valid until</label>
+            <input type="date" name="dateofbirth" id="dateofbirth">
+          </div>
+
+          <div class="receiver-slider">
+            <p class="slider-text">Set a limit that you would like to raise</p>
+              <form action="/">
+              <div class="row">
+                <div id="comission" class="col-md-5 mb-3">
+                  <label>
+                      <span id="comissionLabel" class="comissionLabel">Value: </span>
+
+                  </label>
+                  <input class="custom-range" type="range" min="0.55" max="3.30" step="0.01">
+                </div>
+              </div>
+            </form>
+
+            <p class="slider-text">Set a time limit</p>
+              <form action="/">
+              <div class="row">
+                <div id="comission" class="col-md-5 mb-3">
+                  <label>
+                      <span id="comissionLabel" class="comissionLabel">Value: </span>
+
+                  </label>
+                  <input class="custom-range" type="range" min="0 months" max="24 months" step="0.01">
+                </div>
+              </div>
+            </form>
+
+          </div>
+
+
+            <button class="open-camera-btn" type="submit" value="Submit" onclick="window.location.href='./Receiver-camera info.html'">Open camera</button>
+            <button class="btn btn-secondary btn-lg" type="submit" value="Submit" onclick="window.location.href='./Receiver-choose region.html'">Submit</button>
+
+
+
+
+
+
+         </div>
+
+    </div>
+
+
+</body>
+
+  <!-- SCRIPTS  -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>
