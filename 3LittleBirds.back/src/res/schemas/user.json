@@ -1,0 +1,81 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"register": {
+		"type": "object",
+		"properties": {
+			"name": {
+				"type": "string",
+				"minLength": 2
+			},
+			"email": {
+				"type": "string",
+				"minLength": 2
+			},
+			"password": {
+				"type": "string",
+				"minLength": 2
+			},
+			"repeatPassword": {
+				"type": "string",
+				"minLength": 2
+			}
+		},
+		"additionalProperties": false,
+		"required": [
+			"name",
+			"email",
+			"password",
+			"repeatPassword"
+		]
+	},
+	"details": {
+		"properties": {
+			"name": {
+				"type": "string",
+				"minLength": 2
+			},
+			"birthday": {
+				"type": "string",
+				"minLength": 2
+			},
+			"sex": {
+				"type": "string",
+				"enum": [
+					"M",
+					"F"
+				]
+			},
+			"location": {
+				"type": "string",
+				"minLength": 2
+			},
+			"location": {
+				"type": "string",
+				"minLength": 2
+			},
+			"passportNumber": {
+				"type": "string",
+				"minLength": 2
+			},
+			"validUntil": {
+				"type": "string",
+				"minLength": 2
+			},
+			"idNumber": {
+				"type": "string",
+				"minLength": 2
+			},
+			"idValidUntil": {
+				"type": "string",
+				"minLength": 2
+			},
+			"amount": {
+				"type": "number"
+			},
+			"lengthDays": {
+				"type": "number"
+			}
+		},
+		"additionalProperties": false
+	}
+}
